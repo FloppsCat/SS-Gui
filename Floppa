@@ -1,27 +1,32 @@
--- Gui to Lua
--- Version: 3.2
-
 -- Instances:
 
 local SSGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
+local ChangeTabFrame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local Frame1 = Instance.new("Frame")
 local SkyBoxButton = Instance.new("TextButton")
-local TextLabel_2 = Instance.new("TextLabel")
 local ParticalsButton = Instance.new("TextButton")
 local FireParticalsButton = Instance.new("TextButton")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 local SoundTrollButton = Instance.new("TextButton")
 local PartyButton = Instance.new("TextButton")
-local TextLabel_5 = Instance.new("TextLabel")
 local DecalsButton = Instance.new("TextButton")
-local TextLabel_6 = Instance.new("TextLabel")
 local HeadButton = Instance.new("TextButton")
 local ChaosButton = Instance.new("TextButton")
-local TextLabel_7 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+local ScreamerButton = Instance.new("TextButton")
 local MessageButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local Frame2 = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local GuiCloseButton = Instance.new("TextButton")
 
 --Properties:
 
@@ -29,208 +34,315 @@ SSGui.Name = "SSGui"
 SSGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Frame.Parent = SSGui
-Frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.440583915, 0, 0.378109455, 0)
-Frame.Size = UDim2.new(0, 494, 0, 334)
+Frame.Position = UDim2.new(0.369948179, 0, 0.236318409, 0)
+Frame.Size = UDim2.new(0, 503, 0, 410)
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+ChangeTabFrame.Name = "ChangeTabFrame"
+ChangeTabFrame.Parent = Frame
+ChangeTabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChangeTabFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChangeTabFrame.BorderSizePixel = 0
+ChangeTabFrame.Position = UDim2.new(-0.00486485381, 0, 0.101093903, 0)
+ChangeTabFrame.Size = UDim2.new(0, 505, 0, 34)
+
+TextButton.Parent = ChangeTabFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 0, -4.48787915e-07, 0)
+TextButton.Size = UDim2.new(0, 42, 0, 35)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "1"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 50.000
+
+TextLabel.Parent = ChangeTabFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.Size = UDim2.new(0, 493, 0, 39)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0831683204, 0, -4.48787915e-07, 0)
+TextLabel.Size = UDim2.new(0, 7, 0, 35)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Flopps SS"
+TextLabel.Text = ""
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 40.000
+TextLabel.TextSize = 14.000
+
+TextButton_2.Parent = ChangeTabFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0970297009, 0, -4.48787915e-07, 0)
+TextButton_2.Size = UDim2.new(0, 42, 0, 35)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "2"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 50.000
+
+Frame1.Name = "Frame1"
+Frame1.Parent = Frame
+Frame1.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(-0.000896476617, 0, 0.187246338, 0)
+Frame1.Size = UDim2.new(0, 503, 0, 333)
 
 SkyBoxButton.Name = "SkyBoxButton"
-SkyBoxButton.Parent = Frame
+SkyBoxButton.Parent = Frame1
 SkyBoxButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 SkyBoxButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SkyBoxButton.BorderSizePixel = 0
-SkyBoxButton.Position = UDim2.new(0, 0, 0.172998115, 0)
-SkyBoxButton.Size = UDim2.new(0, 180, 0, 41)
+SkyBoxButton.Position = UDim2.new(-0.0019841271, 0, 0.0652595013, 0)
+SkyBoxButton.Size = UDim2.new(0, 181, 0, 41)
 SkyBoxButton.Font = Enum.Font.SourceSans
 SkyBoxButton.Text = "Set Skybox"
 SkyBoxButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 SkyBoxButton.TextSize = 30.000
 
-TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0, 0, 0.115978584, 0)
-TextLabel_2.Size = UDim2.new(0, 493, 0, 20)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextSize = 14.000
-
 ParticalsButton.Name = "ParticalsButton"
-ParticalsButton.Parent = Frame
+ParticalsButton.Parent = Frame1
 ParticalsButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 ParticalsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ParticalsButton.BorderSizePixel = 0
-ParticalsButton.Position = UDim2.new(0.632478654, 0, 0.172998115, 0)
-ParticalsButton.Size = UDim2.new(0, 180, 0, 41)
+ParticalsButton.Position = UDim2.new(0.636904776, 0, 0.0622565001, 0)
+ParticalsButton.Size = UDim2.new(0, 181, 0, 41)
 ParticalsButton.Font = Enum.Font.SourceSans
 ParticalsButton.Text = "Particals"
 ParticalsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 ParticalsButton.TextSize = 30.000
 
 FireParticalsButton.Name = "FireParticalsButton"
-FireParticalsButton.Parent = Frame
+FireParticalsButton.Parent = Frame1
 FireParticalsButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 FireParticalsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FireParticalsButton.BorderSizePixel = 0
-FireParticalsButton.Position = UDim2.new(0, 0, 0.351099432, 0)
+FireParticalsButton.Position = UDim2.new(-0.0019841271, 0, 0.243360922, 0)
 FireParticalsButton.Size = UDim2.new(0, 180, 0, 41)
 FireParticalsButton.Font = Enum.Font.SourceSans
 FireParticalsButton.Text = "Fire Particales"
 FireParticalsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 FireParticalsButton.TextSize = 30.000
 
-TextLabel_3.Parent = Frame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0, 0, 0.29407981, 0)
-TextLabel_3.Size = UDim2.new(0, 493, 0, 20)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = ""
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.TextSize = 14.000
-
-TextLabel_4.Parent = Frame
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0.364372462, 0, 0.175858736, 0)
-TextLabel_4.Size = UDim2.new(0, 132, 0, 275)
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = ""
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.TextSize = 14.000
+TextLabel_2.Parent = Frame1
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.0019841271, 0, 0.185971469, 0)
+TextLabel_2.Size = UDim2.new(0, 505, 0, 21)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
 
 SoundTrollButton.Name = "SoundTrollButton"
-SoundTrollButton.Parent = Frame
+SoundTrollButton.Parent = Frame1
 SoundTrollButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 SoundTrollButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SoundTrollButton.BorderSizePixel = 0
-SoundTrollButton.Position = UDim2.new(0.631578922, 0, 0.351099432, 0)
-SoundTrollButton.Size = UDim2.new(0, 181, 0, 41)
+SoundTrollButton.Position = UDim2.new(0.636904776, 0, 0.246363923, 0)
+SoundTrollButton.Size = UDim2.new(0, 182, 0, 41)
 SoundTrollButton.Font = Enum.Font.SourceSans
 SoundTrollButton.Text = "Sound Troll"
 SoundTrollButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 SoundTrollButton.TextSize = 30.000
 
 PartyButton.Name = "PartyButton"
-PartyButton.Parent = Frame
+PartyButton.Parent = Frame1
 PartyButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 PartyButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 PartyButton.BorderSizePixel = 0
-PartyButton.Position = UDim2.new(0, 0, 0.529200733, 0)
+PartyButton.Position = UDim2.new(0, 0, 0.436916232, 0)
 PartyButton.Size = UDim2.new(0, 180, 0, 41)
 PartyButton.Font = Enum.Font.SourceSans
 PartyButton.Text = "Party Troll"
 PartyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 PartyButton.TextSize = 30.000
 
-TextLabel_5.Parent = Frame
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.00202429155, 0, 0.472181112, 0)
-TextLabel_5.Size = UDim2.new(0, 493, 0, 20)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = ""
-TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.TextSize = 14.000
-
 DecalsButton.Name = "DecalsButton"
-DecalsButton.Parent = Frame
+DecalsButton.Parent = Frame1
 DecalsButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 DecalsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 DecalsButton.BorderSizePixel = 0
-DecalsButton.Position = UDim2.new(0.631578922, 0, 0.529200733, 0)
-DecalsButton.Size = UDim2.new(0, 181, 0, 41)
+DecalsButton.Position = UDim2.new(0.635547221, 0, 0.620099425, 0)
+DecalsButton.Size = UDim2.new(0, 183, 0, 41)
 DecalsButton.Font = Enum.Font.SourceSans
 DecalsButton.Text = "Change Decals"
 DecalsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 DecalsButton.TextSize = 30.000
 
-TextLabel_6.Parent = Frame
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0, 0, 0.649700582, 0)
-TextLabel_6.Size = UDim2.new(0, 494, 0, 19)
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = ""
-TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.TextSize = 14.000
-
 HeadButton.Name = "HeadButton"
-HeadButton.Parent = Frame
+HeadButton.Parent = Frame1
 HeadButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 HeadButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HeadButton.BorderSizePixel = 0
-HeadButton.Position = UDim2.new(0, 0, 0.706586838, 0)
-HeadButton.Size = UDim2.new(0, 180, 0, 38)
+HeadButton.Position = UDim2.new(0.0019841271, 0, 0.619869471, 0)
+HeadButton.Size = UDim2.new(0, 180, 0, 41)
 HeadButton.Font = Enum.Font.SourceSans
 HeadButton.Text = "HeadChange"
 HeadButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 HeadButton.TextSize = 30.000
 
 ChaosButton.Name = "ChaosButton"
-ChaosButton.Parent = Frame
+ChaosButton.Parent = Frame1
 ChaosButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 ChaosButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ChaosButton.BorderSizePixel = 0
-ChaosButton.Position = UDim2.new(0.632478654, 0, 0.706586838, 0)
-ChaosButton.Size = UDim2.new(0, 181, 0, 38)
+ChaosButton.Position = UDim2.new(0.636904776, 0, 0.42720136, 0)
+ChaosButton.Size = UDim2.new(0, 183, 0, 44)
 ChaosButton.Font = Enum.Font.SourceSans
 ChaosButton.Text = "Server Chaos"
 ChaosButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 ChaosButton.TextSize = 30.000
 
-TextLabel_7.Parent = Frame
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0.00202429155, 0, 0.82035929, 0)
-TextLabel_7.Size = UDim2.new(0, 494, 0, 19)
-TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = ""
-TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.TextSize = 14.000
-
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.632478654, 0, 0.877245486, 0)
-TextButton.Size = UDim2.new(0, 182, 0, 40)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = ""
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 30.000
+ScreamerButton.Name = "ScreamerButton"
+ScreamerButton.Parent = Frame1
+ScreamerButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+ScreamerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreamerButton.BorderSizePixel = 0
+ScreamerButton.Position = UDim2.new(0.634920657, 0, 0.802540064, 0)
+ScreamerButton.Size = UDim2.new(0, 183, 0, 41)
+ScreamerButton.Font = Enum.Font.SourceSans
+ScreamerButton.Text = "Screamer"
+ScreamerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreamerButton.TextSize = 30.000
 
 MessageButton.Name = "MessageButton"
-MessageButton.Parent = Frame
+MessageButton.Parent = Frame1
 MessageButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
 MessageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MessageButton.BorderSizePixel = 0
-MessageButton.Position = UDim2.new(0.000297515508, 0, 0.874273777, 0)
-MessageButton.Size = UDim2.new(0, 178, 0, 41)
+MessageButton.Position = UDim2.new(0.000297425286, 0, 0.801693678, 0)
+MessageButton.Size = UDim2.new(0, 180, 0, 41)
 MessageButton.Font = Enum.Font.SourceSans
 MessageButton.Text = "Message"
 MessageButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 MessageButton.TextSize = 30.000
 
+TextLabel_3.Parent = Frame1
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.369154632, 0)
+TextLabel_3.Size = UDim2.new(0, 504, 0, 21)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Frame1
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.0039682542, 0, -0.00106921501, 0)
+TextLabel_4.Size = UDim2.new(0, 504, 0, 22)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+TextLabel_5.Parent = Frame1
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0, 0, 0.558558583, 0)
+TextLabel_5.Size = UDim2.new(0, 504, 0, 21)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = Frame1
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0019841271, 0, 0.741741717, 0)
+TextLabel_6.Size = UDim2.new(0, 502, 0, 21)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = Frame1
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0019841271, 0, 0.92492491, 0)
+TextLabel_7.Size = UDim2.new(0, 502, 0, 25)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+TextLabel_8.Parent = Frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(-0.00486485381, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 506, 0, 41)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Flopps SS"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 45.000
+
+Frame2.Name = "Frame2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(-0.00486485381, 0, 0.185365856, 0)
+Frame2.Size = UDim2.new(0, 506, 0, 333)
+Frame2.Visible = false
+
+TextLabel_9.Parent = Frame2
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.00395260053, 0, -0.00106921501, 0)
+TextLabel_9.Size = UDim2.new(0, 502, 0, 22)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+
+GuiCloseButton.Name = "GuiCloseButton"
+GuiCloseButton.Parent = Frame
+GuiCloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuiCloseButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GuiCloseButton.BorderSizePixel = 0
+GuiCloseButton.Position = UDim2.new(0.903030574, 0, 0, 0)
+GuiCloseButton.Size = UDim2.new(0, 49, 0, 41)
+GuiCloseButton.Font = Enum.Font.SourceSans
+GuiCloseButton.Text = "X"
+GuiCloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+GuiCloseButton.TextSize = 60.000
+
 -- Scripts:
 
-local function GVEXQS_fake_script() -- SkyBoxButton.LocalScript 
+local function XTCDPQJ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame1 = script.Parent.Parent.Parent.Frame1
+	local Frame2 = script.Parent.Parent.Parent.Frame2
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame1.Visible = true
+		Frame2.Visible = false
+	end)
+end
+coroutine.wrap(XTCDPQJ_fake_script)()
+local function DXNPQ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local Frame1 = script.Parent.Parent.Parent.Frame1
+	local Frame2 = script.Parent.Parent.Parent.Frame2
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame1.Visible = false
+		Frame2.Visible = true
+	end)
+end
+coroutine.wrap(DXNPQ_fake_script)()
+local function RRCCA_fake_script() -- SkyBoxButton.LocalScript 
 	local script = Instance.new('LocalScript', SkyBoxButton)
 
 	local SkyBoxButton = script.Parent
@@ -247,8 +359,8 @@ local function GVEXQS_fake_script() -- SkyBoxButton.LocalScript
 		game.Lighting.TimeOfDay = 12
 	end)
 end
-coroutine.wrap(GVEXQS_fake_script)()
-local function UDGDMKQ_fake_script() -- ParticalsButton.LocalScript 
+coroutine.wrap(RRCCA_fake_script)()
+local function YWZHVHG_fake_script() -- ParticalsButton.LocalScript 
 	local script = Instance.new('LocalScript', ParticalsButton)
 
 	local ParticalsButton = script.Parent
@@ -277,8 +389,8 @@ local function UDGDMKQ_fake_script() -- ParticalsButton.LocalScript
 			end
 		end)
 end
-coroutine.wrap(UDGDMKQ_fake_script)()
-local function AYHCP_fake_script() -- FireParticalsButton.LocalScript 
+coroutine.wrap(YWZHVHG_fake_script)()
+local function VFPFJY_fake_script() -- FireParticalsButton.LocalScript 
 	local script = Instance.new('LocalScript', FireParticalsButton)
 
 	local FireParticalsButton = script.Parent
@@ -335,8 +447,8 @@ local function AYHCP_fake_script() -- FireParticalsButton.LocalScript
 		xds(game.Workspace)
 	end)
 end
-coroutine.wrap(AYHCP_fake_script)()
-local function YRUD_fake_script() -- SoundTrollButton.LocalScript 
+coroutine.wrap(VFPFJY_fake_script)()
+local function HBEO_fake_script() -- SoundTrollButton.LocalScript 
 	local script = Instance.new('LocalScript', SoundTrollButton)
 
 	local SoundTrollButton = script.Parent
@@ -348,8 +460,8 @@ local function YRUD_fake_script() -- SoundTrollButton.LocalScript
 		game.Workspace.Sound:Play()
 	end)
 end
-coroutine.wrap(YRUD_fake_script)()
-local function RGYQB_fake_script() -- PartyButton.LocalScript 
+coroutine.wrap(HBEO_fake_script)()
+local function XHTGZH_fake_script() -- PartyButton.LocalScript 
 	local script = Instance.new('LocalScript', PartyButton)
 
 	local PartyButton = script.Parent
@@ -380,16 +492,8 @@ local function RGYQB_fake_script() -- PartyButton.LocalScript
 			game.Workspace.Sound:Play()
 	end)
 end
-coroutine.wrap(RGYQB_fake_script)()
-local function BEKQ_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	Frame = script.Parent
-	Frame.Active = true
-	Frame.Draggable = true
-end
-coroutine.wrap(BEKQ_fake_script)()
-local function DMISWNW_fake_script() -- DecalsButton.LocalScript 
+coroutine.wrap(XHTGZH_fake_script)()
+local function FQUM_fake_script() -- DecalsButton.LocalScript 
 	local script = Instance.new('LocalScript', DecalsButton)
 
 	local DecalsButton = script.Parent
@@ -432,8 +536,8 @@ local function DMISWNW_fake_script() -- DecalsButton.LocalScript
 		asdf(game.Workspace)
 		end)
 end
-coroutine.wrap(DMISWNW_fake_script)()
-local function CSXG_fake_script() -- HeadButton.LocalScript 
+coroutine.wrap(FQUM_fake_script)()
+local function BBZD_fake_script() -- HeadButton.LocalScript 
 	local script = Instance.new('LocalScript', HeadButton)
 
 	local HeadButton = script.Parent
@@ -457,8 +561,8 @@ local function CSXG_fake_script() -- HeadButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CSXG_fake_script)()
-local function WKYIJ_fake_script() -- ChaosButton.LocalScript 
+coroutine.wrap(BBZD_fake_script)()
+local function KZAD_fake_script() -- ChaosButton.LocalScript 
 	local script = Instance.new('LocalScript', ChaosButton)
 
 	local ChaosButton = script.Parent
@@ -493,8 +597,36 @@ local function WKYIJ_fake_script() -- ChaosButton.LocalScript
 	
 	end)
 end
-coroutine.wrap(WKYIJ_fake_script)()
-local function LMIR_fake_script() -- MessageButton.LocalScript 
+coroutine.wrap(KZAD_fake_script)()
+local function KSJH_fake_script() -- ScreamerButton.LocalScript 
+	local script = Instance.new('LocalScript', ScreamerButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+				spawn(function()
+					local newgui = Instance.new("ScreenGui",v.PlayerGui)
+					newgui.Name = "Screamer"
+					local newimage = Instance.new("ImageLabel",newgui)
+					newimage.Image = "http://www.roblox.com/asset/?id=15670929135"
+					newimage.Size = UDim2.new(0, 1276,0, 803)
+					local s = Instance.new("Sound",newgui)
+					s.SoundId = "rbxassetid://6701126635"
+					s.Volume = 99999999999999999999999999999
+					s.Looped = true
+					s:Play()
+					while wait(9) do
+	
+						newimage.Parent:Destroy()
+	
+					end
+				end)
+			end
+		end
+	end)
+end
+coroutine.wrap(KSJH_fake_script)()
+local function WXHOW_fake_script() -- MessageButton.LocalScript 
 	local script = Instance.new('LocalScript', MessageButton)
 
 	local MessageButton = script.Parent
@@ -505,4 +637,19 @@ local function LMIR_fake_script() -- MessageButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LMIR_fake_script)()
+coroutine.wrap(WXHOW_fake_script)()
+local function ZBXXF_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(ZBXXF_fake_script)()
+local function RANYFTH_fake_script() -- GuiCloseButton.LocalScript 
+	local script = Instance.new('LocalScript', GuiCloseButton)
+
+	GuiCloseButton.MouseButton1Click:Connect(function()
+		SSGui:Destroy()
+	end)
+end
+coroutine.wrap(RANYFTH_fake_script)()
