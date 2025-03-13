@@ -432,7 +432,7 @@ GuiCloseButton.TextSize = 60.000
 
 -- Scripts:
 
-local function EWOG_fake_script() -- TextButton.LocalScript 
+local function NWUUPYD_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Frame1 = script.Parent.Parent.Parent.Frame1
@@ -443,8 +443,8 @@ local function EWOG_fake_script() -- TextButton.LocalScript
 		Frame2.Visible = false
 	end)
 end
-coroutine.wrap(EWOG_fake_script)()
-local function LVXSL_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(NWUUPYD_fake_script)()
+local function SXMHTGX_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Frame1 = script.Parent.Parent.Parent.Frame1
@@ -455,8 +455,8 @@ local function LVXSL_fake_script() -- TextButton_2.LocalScript
 		Frame2.Visible = true
 	end)
 end
-coroutine.wrap(LVXSL_fake_script)()
-local function EKXHQV_fake_script() -- SkyBoxButton.LocalScript 
+coroutine.wrap(SXMHTGX_fake_script)()
+local function UIXGKY_fake_script() -- SkyBoxButton.LocalScript 
 	local script = Instance.new('LocalScript', SkyBoxButton)
 
 	local SkyBoxButton = script.Parent
@@ -473,8 +473,8 @@ local function EKXHQV_fake_script() -- SkyBoxButton.LocalScript
 		game.Lighting.TimeOfDay = 12
 	end)
 end
-coroutine.wrap(EKXHQV_fake_script)()
-local function HHECHH_fake_script() -- ParticalsButton.LocalScript 
+coroutine.wrap(UIXGKY_fake_script)()
+local function MKKR_fake_script() -- ParticalsButton.LocalScript 
 	local script = Instance.new('LocalScript', ParticalsButton)
 
 	local ParticalsButton = script.Parent
@@ -503,8 +503,8 @@ local function HHECHH_fake_script() -- ParticalsButton.LocalScript
 			end
 		end)
 end
-coroutine.wrap(HHECHH_fake_script)()
-local function YOHN_fake_script() -- FireParticalsButton.LocalScript 
+coroutine.wrap(MKKR_fake_script)()
+local function ZFFH_fake_script() -- FireParticalsButton.LocalScript 
 	local script = Instance.new('LocalScript', FireParticalsButton)
 
 	local FireParticalsButton = script.Parent
@@ -561,8 +561,8 @@ local function YOHN_fake_script() -- FireParticalsButton.LocalScript
 		xds(game.Workspace)
 	end)
 end
-coroutine.wrap(YOHN_fake_script)()
-local function KTLVUL_fake_script() -- SoundTrollButton.LocalScript 
+coroutine.wrap(ZFFH_fake_script)()
+local function XRII_fake_script() -- SoundTrollButton.LocalScript 
 	local script = Instance.new('LocalScript', SoundTrollButton)
 
 	local SoundTrollButton = script.Parent
@@ -574,8 +574,8 @@ local function KTLVUL_fake_script() -- SoundTrollButton.LocalScript
 		game.Workspace.Sound:Play()
 	end)
 end
-coroutine.wrap(KTLVUL_fake_script)()
-local function BYVJFN_fake_script() -- PartyButton.LocalScript 
+coroutine.wrap(XRII_fake_script)()
+local function ELHJ_fake_script() -- PartyButton.LocalScript 
 	local script = Instance.new('LocalScript', PartyButton)
 
 	local PartyButton = script.Parent
@@ -606,8 +606,8 @@ local function BYVJFN_fake_script() -- PartyButton.LocalScript
 			game.Workspace.Sound:Play()
 	end)
 end
-coroutine.wrap(BYVJFN_fake_script)()
-local function YJBMHIO_fake_script() -- DecalsButton.LocalScript 
+coroutine.wrap(ELHJ_fake_script)()
+local function DRLZC_fake_script() -- DecalsButton.LocalScript 
 	local script = Instance.new('LocalScript', DecalsButton)
 
 	local DecalsButton = script.Parent
@@ -650,8 +650,8 @@ local function YJBMHIO_fake_script() -- DecalsButton.LocalScript
 		asdf(game.Workspace)
 		end)
 end
-coroutine.wrap(YJBMHIO_fake_script)()
-local function CKXBQY_fake_script() -- HeadButton.LocalScript 
+coroutine.wrap(DRLZC_fake_script)()
+local function TQDCV_fake_script() -- HeadButton.LocalScript 
 	local script = Instance.new('LocalScript', HeadButton)
 
 	local HeadButton = script.Parent
@@ -675,8 +675,8 @@ local function CKXBQY_fake_script() -- HeadButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CKXBQY_fake_script)()
-local function JTQX_fake_script() -- ChaosButton.LocalScript 
+coroutine.wrap(TQDCV_fake_script)()
+local function YZVS_fake_script() -- ChaosButton.LocalScript 
 	local script = Instance.new('LocalScript', ChaosButton)
 
 	local ChaosButton = script.Parent
@@ -711,8 +711,8 @@ local function JTQX_fake_script() -- ChaosButton.LocalScript
 	
 	end)
 end
-coroutine.wrap(JTQX_fake_script)()
-local function DFZO_fake_script() -- ScreamerButton.LocalScript 
+coroutine.wrap(YZVS_fake_script)()
+local function DYNMR_fake_script() -- ScreamerButton.LocalScript 
 	local script = Instance.new('LocalScript', ScreamerButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -739,8 +739,8 @@ local function DFZO_fake_script() -- ScreamerButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DFZO_fake_script)()
-local function LLQF_fake_script() -- MessageButton.LocalScript 
+coroutine.wrap(DYNMR_fake_script)()
+local function QLBC_fake_script() -- MessageButton.LocalScript 
 	local script = Instance.new('LocalScript', MessageButton)
 
 	local MessageButton = script.Parent
@@ -751,15 +751,15 @@ local function LLQF_fake_script() -- MessageButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LLQF_fake_script)()
-local function RKDI_fake_script() -- Frame.LocalScript 
+coroutine.wrap(QLBC_fake_script)()
+local function FHRE_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(RKDI_fake_script)()
-local function KWFXTH_fake_script() -- KillAllButton.LocalScript 
+coroutine.wrap(FHRE_fake_script)()
+local function HGTBIA_fake_script() -- KillAllButton.LocalScript 
 	local script = Instance.new('LocalScript', KillAllButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -770,8 +770,8 @@ local function KWFXTH_fake_script() -- KillAllButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KWFXTH_fake_script)()
-local function LWYFDW_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(HGTBIA_fake_script)()
+local function BEANCG_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	local TextBox = script.Parent
@@ -791,8 +791,8 @@ local function LWYFDW_fake_script() -- TextBox.LocalScript
 	end
 	TextBox.FocusLost:Connect(KillPlayer)
 end
-coroutine.wrap(LWYFDW_fake_script)()
-local function YIXKUBJ_fake_script() -- BringAllButton.LocalScript 
+coroutine.wrap(BEANCG_fake_script)()
+local function EIADC_fake_script() -- BringAllButton.LocalScript 
 	local script = Instance.new('LocalScript', BringAllButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -813,8 +813,8 @@ local function YIXKUBJ_fake_script() -- BringAllButton.LocalScript
 	
 	
 end
-coroutine.wrap(YIXKUBJ_fake_script)()
-local function HZEKANK_fake_script() -- BringBox.LocalScript 
+coroutine.wrap(EIADC_fake_script)()
+local function LRIODVX_fake_script() -- BringBox.LocalScript 
 	local script = Instance.new('LocalScript', BringBox)
 
 	BringBox = script.Parent
@@ -822,16 +822,19 @@ local function HZEKANK_fake_script() -- BringBox.LocalScript
 	BringBox.MouseButton1Click:Connect(function()
 		local function BringPlayer()
 			local thisplayer = game.Players.LocalPlayer.Character
+			if not thisplayer then return end  -- Проверка на существование персонажа
+	
+			local thisrootpart = thisplayer:FindFirstChild("HumanoidRootPart")
+			if not thisrootpart then return end  -- Проверка на существование HumanoidRootPart
+	
 			local playername = BringBox.Text
 			local player = game.Players:FindFirstChild(playername)
 	
 			if player and player.Character then
 				local character = player.Character
-				local humanoidrootpart = character:FindFirstChild("HumanoidRootPart")
-				local thisHumanoidRootPart = thisplayer and thisplayer:FindFirstChild("HumanoidRootPart")
-	
-				if humanoidrootpart and thisHumanoidRootPart then
-					humanoidrootpart.CFrame = thisHumanoidRootPart.CFrame
+				local humanoidrootpart = character:FindFirstChild("HumanoidRootPart")  -- Строка "HumanoidRootPart" должна быть в кавычках
+				if humanoidrootpart then
+					humanoidrootpart.CFrame = CFrame.new(thisrootpart.Position)  -- Используем позицию для телепортации
 				end
 			end
 		end
@@ -840,12 +843,12 @@ local function HZEKANK_fake_script() -- BringBox.LocalScript
 	end)
 	
 end
-coroutine.wrap(HZEKANK_fake_script)()
-local function NOVL_fake_script() -- GuiCloseButton.LocalScript 
+coroutine.wrap(LRIODVX_fake_script)()
+local function RYHO_fake_script() -- GuiCloseButton.LocalScript 
 	local script = Instance.new('LocalScript', GuiCloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		SSGui:Destroy()
 	end)
 end
-coroutine.wrap(NOVL_fake_script)()
+coroutine.wrap(RYHO_fake_script)()
