@@ -38,6 +38,10 @@ local TextLabel_13 = Instance.new("TextLabel")
 local BringAllButton = Instance.new("TextButton")
 local TextLabel_14 = Instance.new("TextLabel")
 local BringBox = Instance.new("TextBox")
+local UntitledButton = Instance.new("TextButton")
+local RemoveClothesButton = Instance.new("TextButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local GiveDildoButton = Instance.new("TextButton")
 local GuiCloseButton = Instance.new("TextButton")
 
 --Properties:
@@ -377,7 +381,7 @@ TextLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_13.BorderSizePixel = 0
 TextLabel_13.Position = UDim2.new(0, 0, 0.558558583, 0)
-TextLabel_13.Size = UDim2.new(0, 507, 0, 20)
+TextLabel_13.Size = UDim2.new(0, 505, 0, 20)
 TextLabel_13.Font = Enum.Font.SourceSans
 TextLabel_13.Text = ""
 TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -418,6 +422,53 @@ BringBox.Text = ""
 BringBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 BringBox.TextSize = 14.000
 
+UntitledButton.Name = "UntitledButton"
+UntitledButton.Parent = Frame2
+UntitledButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+UntitledButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UntitledButton.BorderSizePixel = 0
+UntitledButton.Position = UDim2.new(0.00394870946, 0, 0.831831813, 0)
+UntitledButton.Size = UDim2.new(0, 181, 0, 50)
+UntitledButton.Font = Enum.Font.SourceSans
+UntitledButton.Text = ""
+UntitledButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+UntitledButton.TextSize = 30.000
+
+RemoveClothesButton.Name = "RemoveClothesButton"
+RemoveClothesButton.Parent = Frame2
+RemoveClothesButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+RemoveClothesButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RemoveClothesButton.BorderSizePixel = 0
+RemoveClothesButton.Position = UDim2.new(0.6422925, 0, 0.618618608, 0)
+RemoveClothesButton.Size = UDim2.new(0, 181, 0, 51)
+RemoveClothesButton.Font = Enum.Font.SourceSans
+RemoveClothesButton.Text = "Remove Clothes"
+RemoveClothesButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoveClothesButton.TextSize = 30.000
+
+TextLabel_15.Parent = Frame2
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.00395256933, 0, 0.771771789, 0)
+TextLabel_15.Size = UDim2.new(0, 505, 0, 20)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = ""
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 14.000
+
+GiveDildoButton.Name = "GiveDildoButton"
+GiveDildoButton.Parent = Frame2
+GiveDildoButton.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+GiveDildoButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GiveDildoButton.BorderSizePixel = 0
+GiveDildoButton.Position = UDim2.new(0.00197242456, 0, 0.621621609, 0)
+GiveDildoButton.Size = UDim2.new(0, 181, 0, 50)
+GiveDildoButton.Font = Enum.Font.SourceSans
+GiveDildoButton.Text = "Give all Dildo"
+GiveDildoButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+GiveDildoButton.TextSize = 30.000
+
 GuiCloseButton.Name = "GuiCloseButton"
 GuiCloseButton.Parent = Frame
 GuiCloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -432,7 +483,7 @@ GuiCloseButton.TextSize = 60.000
 
 -- Scripts:
 
-local function EQXQGXE_fake_script() -- TextButton.LocalScript 
+local function OMRRBA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local Frame1 = script.Parent.Parent.Parent.Frame1
@@ -443,8 +494,8 @@ local function EQXQGXE_fake_script() -- TextButton.LocalScript
 		Frame2.Visible = false
 	end)
 end
-coroutine.wrap(EQXQGXE_fake_script)()
-local function JJPATI_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(OMRRBA_fake_script)()
+local function ZCPRYR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Frame1 = script.Parent.Parent.Parent.Frame1
@@ -455,8 +506,8 @@ local function JJPATI_fake_script() -- TextButton_2.LocalScript
 		Frame2.Visible = true
 	end)
 end
-coroutine.wrap(JJPATI_fake_script)()
-local function OCZNE_fake_script() -- SkyBoxButton.LocalScript 
+coroutine.wrap(ZCPRYR_fake_script)()
+local function WFSNC_fake_script() -- SkyBoxButton.LocalScript 
 	local script = Instance.new('LocalScript', SkyBoxButton)
 
 	local SkyBoxButton = script.Parent
@@ -473,8 +524,8 @@ local function OCZNE_fake_script() -- SkyBoxButton.LocalScript
 		game.Lighting.TimeOfDay = 12
 	end)
 end
-coroutine.wrap(OCZNE_fake_script)()
-local function IEVGI_fake_script() -- ParticalsButton.LocalScript 
+coroutine.wrap(WFSNC_fake_script)()
+local function AUDUMF_fake_script() -- ParticalsButton.LocalScript 
 	local script = Instance.new('LocalScript', ParticalsButton)
 
 	local ParticalsButton = script.Parent
@@ -503,8 +554,8 @@ local function IEVGI_fake_script() -- ParticalsButton.LocalScript
 			end
 		end)
 end
-coroutine.wrap(IEVGI_fake_script)()
-local function ISGAV_fake_script() -- FireParticalsButton.LocalScript 
+coroutine.wrap(AUDUMF_fake_script)()
+local function BQRWGR_fake_script() -- FireParticalsButton.LocalScript 
 	local script = Instance.new('LocalScript', FireParticalsButton)
 
 	local FireParticalsButton = script.Parent
@@ -561,8 +612,8 @@ local function ISGAV_fake_script() -- FireParticalsButton.LocalScript
 		xds(game.Workspace)
 	end)
 end
-coroutine.wrap(ISGAV_fake_script)()
-local function FBCRU_fake_script() -- SoundTrollButton.LocalScript 
+coroutine.wrap(BQRWGR_fake_script)()
+local function EJLRX_fake_script() -- SoundTrollButton.LocalScript 
 	local script = Instance.new('LocalScript', SoundTrollButton)
 
 	local SoundTrollButton = script.Parent
@@ -574,8 +625,8 @@ local function FBCRU_fake_script() -- SoundTrollButton.LocalScript
 		game.Workspace.Sound:Play()
 	end)
 end
-coroutine.wrap(FBCRU_fake_script)()
-local function QAHW_fake_script() -- PartyButton.LocalScript 
+coroutine.wrap(EJLRX_fake_script)()
+local function TDAT_fake_script() -- PartyButton.LocalScript 
 	local script = Instance.new('LocalScript', PartyButton)
 
 	local PartyButton = script.Parent
@@ -606,8 +657,8 @@ local function QAHW_fake_script() -- PartyButton.LocalScript
 			game.Workspace.Sound:Play()
 	end)
 end
-coroutine.wrap(QAHW_fake_script)()
-local function IKGHMNV_fake_script() -- DecalsButton.LocalScript 
+coroutine.wrap(TDAT_fake_script)()
+local function CQTHWA_fake_script() -- DecalsButton.LocalScript 
 	local script = Instance.new('LocalScript', DecalsButton)
 
 	local DecalsButton = script.Parent
@@ -650,8 +701,8 @@ local function IKGHMNV_fake_script() -- DecalsButton.LocalScript
 		asdf(game.Workspace)
 		end)
 end
-coroutine.wrap(IKGHMNV_fake_script)()
-local function NMXKFFL_fake_script() -- HeadButton.LocalScript 
+coroutine.wrap(CQTHWA_fake_script)()
+local function PCLDRP_fake_script() -- HeadButton.LocalScript 
 	local script = Instance.new('LocalScript', HeadButton)
 
 	local HeadButton = script.Parent
@@ -675,8 +726,8 @@ local function NMXKFFL_fake_script() -- HeadButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NMXKFFL_fake_script)()
-local function SMHE_fake_script() -- ChaosButton.LocalScript 
+coroutine.wrap(PCLDRP_fake_script)()
+local function CRUMJYJ_fake_script() -- ChaosButton.LocalScript 
 	local script = Instance.new('LocalScript', ChaosButton)
 
 	local ChaosButton = script.Parent
@@ -711,8 +762,8 @@ local function SMHE_fake_script() -- ChaosButton.LocalScript
 	
 	end)
 end
-coroutine.wrap(SMHE_fake_script)()
-local function CVPHUBZ_fake_script() -- ScreamerButton.LocalScript 
+coroutine.wrap(CRUMJYJ_fake_script)()
+local function YYVE_fake_script() -- ScreamerButton.LocalScript 
 	local script = Instance.new('LocalScript', ScreamerButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -739,8 +790,8 @@ local function CVPHUBZ_fake_script() -- ScreamerButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CVPHUBZ_fake_script)()
-local function LHPGKH_fake_script() -- MessageButton.LocalScript 
+coroutine.wrap(YYVE_fake_script)()
+local function AWGBIHY_fake_script() -- MessageButton.LocalScript 
 	local script = Instance.new('LocalScript', MessageButton)
 
 	local MessageButton = script.Parent
@@ -751,15 +802,15 @@ local function LHPGKH_fake_script() -- MessageButton.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(LHPGKH_fake_script)()
-local function AHED_fake_script() -- Frame.LocalScript 
+coroutine.wrap(AWGBIHY_fake_script)()
+local function FDQIZGJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(AHED_fake_script)()
-local function QHLEV_fake_script() -- KillAllButton.LocalScript 
+coroutine.wrap(FDQIZGJ_fake_script)()
+local function KSMQLW_fake_script() -- KillAllButton.LocalScript 
 	local script = Instance.new('LocalScript', KillAllButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -770,8 +821,8 @@ local function QHLEV_fake_script() -- KillAllButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QHLEV_fake_script)()
-local function PDJZ_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(KSMQLW_fake_script)()
+local function ZVMYNOX_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	local TextBox = script.Parent
@@ -791,8 +842,8 @@ local function PDJZ_fake_script() -- TextBox.LocalScript
 	end
 	TextBox.FocusLost:Connect(KillPlayer)
 end
-coroutine.wrap(PDJZ_fake_script)()
-local function ZTZWFQ_fake_script() -- BringAllButton.LocalScript 
+coroutine.wrap(ZVMYNOX_fake_script)()
+local function KQTFHUA_fake_script() -- BringAllButton.LocalScript 
 	local script = Instance.new('LocalScript', BringAllButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -813,8 +864,8 @@ local function ZTZWFQ_fake_script() -- BringAllButton.LocalScript
 	
 	
 end
-coroutine.wrap(ZTZWFQ_fake_script)()
-local function ZXQBRT_fake_script() -- BringBox.LocalScript 
+coroutine.wrap(KQTFHUA_fake_script)()
+local function CACUCA_fake_script() -- BringBox.LocalScript 
 	local script = Instance.new('LocalScript', BringBox)
 
 	BringBox = script.Parent
@@ -844,12 +895,88 @@ local function ZXQBRT_fake_script() -- BringBox.LocalScript
 		end)
 	
 end
-coroutine.wrap(ZXQBRT_fake_script)()
-local function YWRZGKU_fake_script() -- GuiCloseButton.LocalScript 
+coroutine.wrap(CACUCA_fake_script)()
+local function IGVLOTW_fake_script() -- UntitledButton.LocalScript 
+	local script = Instance.new('LocalScript', UntitledButton)
+
+	button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local baseplate = Instance.new("Part")
+		baseplate.Name = "Baseplate"
+		baseplate.Size = Vector3.new(512, 1, 512)
+		baseplate.Position = Vector3.new(0, 0, 0)
+		baseplate.Anchored = true
+		baseplate.BrickColor = BrickColor.new("Medium stone grey")
+		baseplate.Parent = workspace
+		wait(0.1)
+		local Wall = Instance.new("Part")
+		Wall.Name = "Baseplate"
+		Wall.Size = Vector3.new(40, 50, 40) -- Standard baseplate size
+		Wall.Position = Vector3.new(2, 2, 2)
+		Wall.Anchored = true
+		Wall.BrickColor = BrickColor.new("Black")
+		Wall.Parent = workspace
+		end)
+end
+coroutine.wrap(IGVLOTW_fake_script)()
+local function LAEE_fake_script() -- RemoveClothesButton.LocalScript 
+	local script = Instance.new('LocalScript', RemoveClothesButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+	
+		local function removeClothes()
+			for _, player in ipairs(Players:GetPlayers()) do
+				if player.Character then
+					for _, item in ipairs(player.Character:GetChildren()) do
+						if item:IsA("Shirt") or item:IsA("Pants") or item:IsA("ShirtGraphic") then
+							item:Destroy() 
+						end
+					end
+				end
+			end
+		end
+		removeClothes()
+	end)
+end
+coroutine.wrap(LAEE_fake_script)()
+local function VTDNSTA_fake_script() -- GiveDildoButton.LocalScript 
+	local script = Instance.new('LocalScript', GiveDildoButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local toolName = "Black Dildo"
+	
+		local function giveBatToAllPlayers()
+			for _, player in pairs(game.Players:GetPlayers()) do
+				local backpack = player:FindFirstChild("Backpack")
+				if backpack then
+					local bat = Instance.new("Tool")
+					bat.Name = toolName
+					bat.CanBeDropped = true
+					bat.RequiresHandle = true
+	
+					local handle = Instance.new("Part")
+					handle.Size = Vector3.new(1, 4, 1) 
+					handle.BrickColor = BrickColor.new("Brown")
+					handle.Anchored = false
+					handle.CanCollide = false
+					handle.Name = "Handle"
+					handle.Parent = bat
+	
+					bat.Parent = backpack
+				end
+			end
+		end
+	
+		giveBatToAllPlayers()
+	end)
+end
+coroutine.wrap(VTDNSTA_fake_script)()
+local function RGQW_fake_script() -- GuiCloseButton.LocalScript 
 	local script = Instance.new('LocalScript', GuiCloseButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		SSGui:Destroy()
 	end)
 end
-coroutine.wrap(YWRZGKU_fake_script)()
+coroutine.wrap(RGQW_fake_script)()
